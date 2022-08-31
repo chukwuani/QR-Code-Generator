@@ -266,6 +266,6 @@ button:hover{
     }
     
     button:hover{
-    background: none;
+    background: var(--main-color);
 }
 }
