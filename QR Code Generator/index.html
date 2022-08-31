@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>QR CODE GENERATOR</title>
+</head>
+<body>
+
+    <header class="header">
+        <p class="logo">QR <span>Generator</span></p>
+    </header>
+
+    <div class="wrapper">
+        
+        <div class="first-container">
+           <p class="p"> QR Codes allow smartphone users to access your website simply and quickly. <br>
+            Enter your URL or text to generate a QR Code and download the image.</p>
+
+           <img src="QR Code-rafiki.svg" alt="scanning QR code">
+        </div>
+
+        <div class="second-container">
+
+           <form class="form-control">
+
+            <input class="input" type="url" name="" placeholder="Enter your URL or text" required>
+            <button class="button" type="submit">Generate QR</button>
+
+           </form>
+
+           <div id="generated">
+
+            <div id="qrcode" title="url"></div>
+
+            <!-- <button class="save-img"><a download="QR Code-rafiki.svg" href="QR Code-rafiki.svg" class="save">Save QR Code</a></button> -->
+
+           </div>
+
+        </div>
+
+    </div>
+    
+    <script src="script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js" integrity="sha512-CNgIRecGo7nphbeZ04Sc13ka07paqdeTu0WR1IM4kNcpmBAUSHSQX0FslNhTDadL4O5SAGapGt4FodqL8My0mA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    
+</body>
+</html>
