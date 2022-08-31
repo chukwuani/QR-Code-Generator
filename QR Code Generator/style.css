@@ -264,4 +264,8 @@ button:hover{
         height: auto;
         margin-top: 3rem;
     }
+    
+    button:hover{
+    background: none;
+}
 }
